@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Anubrota(Anu)
-- 👀 I’m interested in Data Science and Cybersecurity.  
+- 👀 I’m interested in Data Science and Project Management Roles.  
 - 🌱 I’m currently learning Java and Linux. 
-- 💞️ I’m looking to collaborate on Cybersecurity and Algorithms.
+- 💞️ I’m looking to collaborate on Data Analyst and Algorithms.
 - 📫 How to reach me ...
 Mail:- bonginusa11@gmail.com
 
