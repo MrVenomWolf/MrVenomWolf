@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Java and Linux. 
 - 💞️ I’m looking to collaborate on Cybersecurity and Algorithms.
 - 📫 How to reach me ...
-Discord:- MrVenomWolf#0022 or mail:- bonginusa11@gmail.com
+Mail:- bonginusa11@gmail.com
 
 
 <!---
