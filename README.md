@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Java and Linux. 
 - 💞️ I’m looking to collaborate on Data Analyst and Algorithms.
 - 📫 How to reach me ...
-Mail:- bonginusa11@gmail.com
+Mail:- anubrotamajumdar@gmail.com
 
 
 <!---
