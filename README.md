@@ -1,5 +1,9 @@
-## Hi there 👋
-
+- :wave: Hi, I’m Anu
+- :eyes: I’m interested in Data Science and Project Management Roles.  
+- :seedling: I’m currently learning Java and Linux. 
+- 💞️ I’m looking to collaborate on Data Analyst and Algorithms.
+- :mailbox: How to reach me ...
+Mail:- mrvenomwolf@proton.me
 <!--
 **MrVenomWolf/MrVenomWolf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
