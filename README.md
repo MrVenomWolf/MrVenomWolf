@@ -15,6 +15,8 @@ I build practical software with **Python, TypeScript, JavaScript, and Java**, fo
 
 My strongest work combines analytical logic with implementation: collecting and normalizing external data, handling dependency failures, writing testable components, and turning rough ideas into usable applications.
 
+I also dabble in using Linux and cybersecurity puzzles - cryptography, forensics and Web exploitation.
+
 ## Featured projects
 
 ### [NSE Trade Anomaly Detector](https://github.com/MrVenomWolf/NSE-Trade-Anomaly-Detector)
