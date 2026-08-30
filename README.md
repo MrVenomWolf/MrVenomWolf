@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=180&section=header&text=Anu%20%7C%20MrVenomWolf&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Anu profile banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=180&section=header&text=MrVenomWolf&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Anu profile banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Python+%7C+TypeScript+%7C+Java;Data-intensive+applications;Market-data+experimentation;Algorithms+and+software+engineering" alt="Technology focus" />
 
@@ -21,7 +21,7 @@ My strongest work combines analytical logic with implementation: collecting and 
 
 A Python market-data research prototype for detecting unusual trading-volume behavior across NSE equities. The core engine uses explicit data models, rolling baselines that exclude the latest observation, normalized deviation, and configurable anomaly thresholds. Supporting modules explore concurrent data retrieval, local caching, CSV alert logging, visualization, and public regulatory data sources.
 
-### [StreamDrops2](https://github.com/MrVenomWolf/StreamDrops2)
+### [Streamdrops.stream](https://github.com/MrVenomWolf/StreamDrops2)
 
 A full-stack TypeScript application that transforms TMDB data into a typed catalog of films and television series. It includes server-side credentials, request timeouts, bounded retries, caching, stale-cache behavior, provider normalization, responsive interactions, and automated tests.
 
