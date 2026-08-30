@@ -17,14 +17,6 @@ My strongest work combines analytical logic with implementation: collecting and 
 
 ## Featured projects
 
-<div align="center">
-
-<a href="https://github.com/MrVenomWolf/NSE-Trade-Anomaly-Detector"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MrVenomWolf&repo=NSE-Trade-Anomaly-Detector&theme=tokyonight&hide_border=true" alt="NSE Trade Anomaly Detector" /></a>
-<a href="https://github.com/MrVenomWolf/StreamDrops2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MrVenomWolf&repo=StreamDrops2&theme=tokyonight&hide_border=true" alt="StreamDrops2" /></a>
-<a href="https://github.com/MrVenomWolf/Gemini-API-chatbot-GemOS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MrVenomWolf&repo=Gemini-API-chatbot-GemOS&theme=tokyonight&hide_border=true" alt="Gemini API Chatbot GemOS" /></a>
-
-</div>
-
 ### [NSE Trade Anomaly Detector](https://github.com/MrVenomWolf/NSE-Trade-Anomaly-Detector)
 
 A Python market-data research prototype for detecting unusual trading-volume behavior across NSE equities. The core engine uses explicit data models, rolling baselines that exclude the latest observation, normalized deviation, and configurable anomaly thresholds. Supporting modules explore concurrent data retrieval, local caching, CSV alert logging, visualization, and public regulatory data sources.
@@ -66,23 +58,6 @@ A Python desktop chatbot built with Tkinter and the Gemini API. It includes a th
 | Reliability | Timeouts, bounded retries, caching, stale-cache behavior, safe error messages, and local fallback behavior. |
 | Concurrency | Parallel market-data retrieval with Python workers and background API requests in the desktop application. |
 | Testing | Vitest, Testing Library, JSDOM, TypeScript checking, and behavior-focused tests for data transformations and UI flows. |
-
-## GitHub activity
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=MrVenomWolf&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrVenomWolf&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=MrVenomWolf&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MrVenomWolf&theme=tokyo-night&hide_border=true&area=true" alt="GitHub activity graph" />
-
-</div>
 
 ## Contact
 
