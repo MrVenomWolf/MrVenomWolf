@@ -21,7 +21,7 @@ My strongest work combines analytical logic with implementation: collecting and 
 
 A Python market-data research prototype for detecting unusual trading-volume behavior across NSE equities. The core engine uses explicit data models, rolling baselines that exclude the latest observation, normalized deviation, and configurable anomaly thresholds. Supporting modules explore concurrent data retrieval, local caching, CSV alert logging, visualization, and public regulatory data sources.
 
-### [Streamdrops.stream](https://github.com/MrVenomWolf/StreamDrops2)
+### [Streamdrops.stream](https://streamdrops.stream)
 
 A full-stack TypeScript application that transforms TMDB data into a typed catalog of films and television series. It includes server-side credentials, request timeouts, bounded retries, caching, stale-cache behavior, provider normalization, responsive interactions, and automated tests.
 
