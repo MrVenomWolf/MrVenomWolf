@@ -20,25 +20,22 @@ I also dabble in using Linux and cybersecurity puzzles - cryptography, forensics
 
 A Python market-data research prototype for detecting statistically unusual trading-volume behavior across 2,500+ NSE equities. The core engine uses log-normalized Z-scores and an outlier-resistant median/MAD baseline, with a dual-threshold flagging rule to isolate genuine anomalies from noise. Supporting modules handle parallel data retrieval, local caching, CSV alert logging, and visualization.
 
-- Replaced mean-based rolling baseline with a median + Median Absolute Deviation (MAD) baseline, resistant to distortion from prior volume spikes
-- Replaced raw percentage delta with a log-transformed relative volume (RVOL) and Z-score, correcting for volume's log-normal, right-skewed distribution
-- Introduced a dual-threshold flagging rule (Z-score ≥ 2.5σ AND RVOL ≥ 2.0x) to reduce false positives from single-metric heuristics
-- Fixed a config/README threshold mismatch by replacing a flat delta constant with explicit `MIN_Z_SCORE` / `MIN_RVOL` parameters
-- Updated CSV alert logging to record RVOL, Z-score, and modified Z-score instead of a flat delta percentage
-- Added RVOL/Z-score columns to the results table, and replaced an arbitrary fixed-percentage buy/sell zone with a 14-day Average True Range (ATR) volatility band tied to real price data
+- A median + Median Absolute Deviation (MAD) baseline, resistant to distortion from prior volume spikes.
+- A log-transformed relative volume (RVOL) and Z-score, correcting for volume's log-normal, right-skewed distribution.
+- Introduced a dual-threshold flagging rule (Z-score ≥ 2.5σ AND RVOL ≥ 2.0x) to reduce false positives from single-metric heuristics.
+- CSV alert logging to record RVOL, Z-score, and modified Z-score instead of a flat delta percentage.
+- RVOL/Z-score columns to the results table, and replaced an arbitrary fixed-percentage buy/sell zone with a 14-day Average True Range (ATR) volatility band tied to real price data.
+- Dynamically fetches the official master list of all active equities from NSE India archives.
 
 ### [Streamdrops.stream](https://streamdrops.stream)
 
-`TypeScript, React, Node.js, tRPC, TMDB API, Drizzle ORM, Vitest`
-
 A full-stack TypeScript application that ingests TMDB movie/TV data and normalizes inconsistent, loosely-typed external API responses into a stable, strongly-typed data model shared end-to-end via tRPC.
 
-- Implemented resilient API handling with server-side credential protection, request timeouts, bounded retries, rate-limit detection, and short-lived in-memory caching with a stale-cache fallback so the app degrades gracefully instead of failing when TMDB is slow or unavailable
-- Developed deterministic data-selection logic for trailers and streaming providers — sorting candidate videos by official status, type, language, and recency, and deduplicating providers by priority across multiple availability tiers (stream, rent, buy) — to resolve cases where TMDB returns several valid candidates for the same title
-- Used tRPC for end-to-end type safety, with a single shared `AppRouter` type consumed directly by the React client so API contracts can't silently drift between server and frontend
-- Used Drizzle ORM for the application's auth/user data layer
-- Built automated unit and component-level tests with Vitest and Testing Library, covering normalization logic, fallback behavior, and provider-ordering edge cases
-- Served 1,000+ active users in production
+- Implemented resilient API handling with server-side credential protection, request timeouts, bounded retries, rate-limit detection, and short-lived in-memory caching with a stale-cache fallback so the app degrades gracefully instead of failing when TMDB is slow or unavailable.
+- Developed deterministic data-selection logic for trailers and streaming providers — sorting candidate videos by official status, type, language, and recency, and deduplicating providers by priority across multiple availability tiers (stream, rent, buy) — to resolve cases where TMDB returns several valid candidates for the same title.
+- Used tRPC for end-to-end type safety, with a single shared `AppRouter` type consumed directly by the React client so API contracts can't silently drift between server and frontend.
+- Built automated unit and component-level tests with Vitest and Testing Library, covering normalization logic, fallback behavior, and provider-ordering edge cases.
+- Served 1,000+ active users in production.
 
 ### [Gemini API Chatbot / GemOS](https://github.com/MrVenomWolf/Gemini-API-chatbot-GemOS)
 
