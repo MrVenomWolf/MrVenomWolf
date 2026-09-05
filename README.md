@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=180&section=header&text=MrVenomWolf&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Anu profile banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=180&section=header&text=Anu%20%7C%20MrVenomWolf&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Anu profile banner" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-MrVenomWolf-181717?style=for-the-badge&logo=github)](https://github.com/MrVenomWolf)
 [![Email](https://img.shields.io/badge/Email-Contact-0ea5e9?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:mrvenomwolf@proton.me)
