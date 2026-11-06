@@ -16,7 +16,7 @@ I also dabble in using Linux and cybersecurity puzzles - cryptography, forensics
 
 ## Featured projects
 
-### [NSE/SPX Quant Breakout Detector Argus]([https://github.com/MrVenomWolf/Argus])
+### [NSE/SPX Quant Breakout Detector Argus](https://github.com/MrVenomWolf/Argus)
 
 A Python market-data research tool that scans 2,500+ NSE equities and SPX for candidate volume anomalies and price breakouts. It combines robust log-volume statistics with price-action filters, a desktop dashboard, a command-line scanner, and TradingView Pine Script strategies.
 - Used log-transformed volume, relative volume (RVOL), and median/MAD statistics to flag unusual activity while reducing sensitivity to prior volume spikes.
