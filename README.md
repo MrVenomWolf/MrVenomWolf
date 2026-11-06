@@ -16,16 +16,15 @@ I also dabble in using Linux and cybersecurity puzzles - cryptography, forensics
 
 ## Featured projects
 
-### [NSE Trade Anomaly Detector](https://github.com/MrVenomWolf/NSE-Trade-Anomaly-Detector)
+### [NSE/SPX Quant Breakout Detector Argus]([https://github.com/MrVenomWolf/Argus)
 
-A Python market-data research prototype for detecting statistically unusual trading-volume behavior across 2,500+ NSE equities. The core engine uses log-normalized Z-scores and an outlier-resistant median/MAD baseline, with a dual-threshold flagging rule to isolate genuine anomalies from noise. Supporting modules handle parallel data retrieval, local caching, CSV alert logging, and visualization.
-
-- A median + Median Absolute Deviation (MAD) baseline, resistant to distortion from prior volume spikes.
-- A log-transformed relative volume (RVOL) and Z-score, correcting for volume's log-normal, right-skewed distribution.
-- Introduced a dual-threshold flagging rule (Z-score ≥ 2.5σ AND RVOL ≥ 2.0x) to reduce false positives from single-metric heuristics.
-- CSV alert logging to record RVOL, Z-score, and modified Z-score instead of a flat delta percentage.
-- RVOL/Z-score columns to the results table, and replaced an arbitrary fixed-percentage buy/sell zone with a 14-day Average True Range (ATR) volatility band tied to real price data.
-- Dynamically fetches the official master list of all active equities from NSE India archives.
+A Python market-data research tool that scans 2,500+ NSE equities and SPX for candidate volume anomalies and price breakouts. It combines robust log-volume statistics with price-action filters, a desktop dashboard, a command-line scanner, and TradingView Pine Script strategies.
+- Used log-transformed volume, relative volume (RVOL), and median/MAD statistics to flag unusual activity while reducing sensitivity to prior volume spikes.
+- Added configurable dual-threshold anomaly screening and Benjamini–Hochberg false-discovery-rate adjustment across tested symbols.
+- Combined volume signals with shifted Donchian Channels and close-location filtering to identify potential breakouts.
+- Implemented ATR-based risk levels and a long-only backtester with next-bar-open entries, transaction-cost assumptions, and stop slippage.
+- Built Pine Script v5 strategies for NSE and US/SPX charts, with intraday same-slot volume baselines, index volume proxies, session filters, ATR stops and targets, chart overlays, and alerts. Signals confirm at candle close; strategies simulate trades on the chart instrument rather than actual options.
+- Added batched market-data retrieval, local caching, CSV alert exports, dynamic NSE-universe loading, and desktop/CLI interfaces.
 
 ### [Streamdrops.stream](https://streamdrops.stream)
 
